@@ -19,7 +19,7 @@ int calculate(int opcode,int a,int b){
 	if(opcode==3){
 		return a/b;
 	}
-	
+	return 0;
 } 
 int main(){
 	int x,y,z;
