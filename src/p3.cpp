@@ -17,6 +17,6 @@ int climb(int n){
 int main(){
 	int a;
 	cin>>a;
-	cout<<climb(a);
+	cout<<climb(a)<<endl;
 	return 0;
 }
