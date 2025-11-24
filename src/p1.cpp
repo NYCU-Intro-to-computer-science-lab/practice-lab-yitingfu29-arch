@@ -7,16 +7,16 @@ using namespace std;
 // 回傳: 根據 opcode 計算的結果
 
 int calculate(int opcode,int a,int b){
-	if(opcode==0){
+	if(opcode==1){
 		return a+b;
 	}
-	if(opcode==1){
+	if(opcode==2){
 		return a-b;
 	}
-	if(opcode==2){
+	if(opcode==3){
 		return a*b;
 	}
-	if(opcode==3){
+	if(opcode==4){
 		return a/b;
 	}
 	return 0;
